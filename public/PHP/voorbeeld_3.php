@@ -18,7 +18,7 @@
       $totaal=array_merge($namen,$aanvulling);        // twee arrays samenvoegen tot één
       echo $totaal[3]."</p>";
       
-       echo "<h2>Hele array</h2>";
+      echo "<h2>Hele array</h2>";
       print_r($totaal);                               // toon de volledige array op het scherm
       echo "<h2>Overzichtelijker</h2>";
       echo "<pre>";

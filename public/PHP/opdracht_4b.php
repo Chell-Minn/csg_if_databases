@@ -5,8 +5,17 @@ include('opdracht_begin.php');
 TYP HIERONDER JOUW PHPCODE
 ****************************/
 
-$leerling=array('nr' => 123456, 'voornaam' => 'Alan', 'achternaam' => 'Turing');
+$leerling=array('nr' => 151285, 'voornaam' => 'Michel', 'achternaam' => 'Pluim', 'geboortejaar' => 2004);
+echo $leerling['voornaam']." ".$leerling['achternaam']." werd geboren in ".$leerling['geboortejaar'].".<br>";
 
+array_reverse($leerling);
+echo "<pre>";
+print_r($leerling);
+echo "</pre>";
+sort($leerling);
+echo "<pre>";
+print_r($leerling);
+echo "</pre>";
 echo "<pre>Leerling:";
 print_r($leerling);
 echo "</pre>";
