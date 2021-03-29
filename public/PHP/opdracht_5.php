@@ -13,6 +13,19 @@ for ($t=1;$t<=8;$t++) {
 print_r($reeks);
 echo "<br>";
 
+$macht3=array();
+for ($t=1;$t<=8;$t++) {
+  array_push($macht3,$t*$t*$t);
+}
+print_r($macht3);
+echo "<br>";
+
+$n=1;
+while ($macht3[$n]<1000) {
+  echo $macht3[$n]." | ";  
+  $n++;
+}
+
 /****************************
 EINDE VAN JOUW PHPCODE
 ****************************/
