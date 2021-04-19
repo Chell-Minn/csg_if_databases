@@ -14,14 +14,14 @@ print_r($reeks);
 echo "<br>";
 
 $macht3=array();
-for ($t=1;$t<=8;$t++) {
-  array_push($macht3,$t*$t*$t);
+foreach ($reeks as $waarde) {
+  array_push($macht3,pow($waarde,3));
 }
 print_r($macht3);
 echo "<br>";
 
 $n=1;
-while ($macht3[$n]<1000) {
+while ($macht3[$n]<=1000) {
   echo $macht3[$n]." | ";  
   $n++;
 }
