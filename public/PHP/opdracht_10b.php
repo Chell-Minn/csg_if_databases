@@ -6,15 +6,44 @@ TYP HIERONDER JOUW PHPCODE
 ****************************/
 
 require('database.php');
-$database = "top_2000_v2";
+$database = "postcode";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
-echo "<h2>RESULTAAT</h2>";
-$sql = "SELECT * FROM artiest,titel,notering WHERE artiest.id=titel.artiest_id AND notering.lied_id=titel.id AND notering.jaar=2014 AND artiest='Nirvana' ORDER BY positie ASC";
+
+$straat='Hoofdstraat';
+echo "<h2>Eerste deel: plaatsen met een $straat</h2>";
+$plaatsnamen=array();
+$sql = "SELECT DISTINCT(plaats) FROM postcode WHERE straat='$straat' ORDER BY plaats ASC";
 $records = mysqli_query($DBverbinding, $sql);
       
 while($record = mysqli_fetch_assoc($records)) {
-  echo "<b>".$record["titel"]."</b> stond in 2014 op positie ".$record['positie'].".<br>";
+  //echo $record["plaats"]."<br>";
+  array_push($plaatsnamen,$record['plaats']);
 }
+
+foreach($plaatsnamen as $plaats) {
+    echo $plaats." | ";
+}
+
+
+echo "<h2>Tweede deel: frequentie van straatnamen</h2>";
+$straatnamen=array();
+$sql = "SELECT DISTINCT(straat) FROM postcode WHERE plaats='Klijndijk' ORDER BY straat ASC";
+$records = mysqli_query($DBverbinding, $sql);
+      
+while($record = mysqli_fetch_assoc($records)) {
+  //echo $record["straat"]."<br>";
+  array_push($straatnamen,$record['straat']);
+}
+
+foreach($straatnamen as $straat) {
+    $sql = "SELECT COUNT(*) AS aantal,straat FROM postcode WHERE straat='$straat'";
+    $records = mysqli_query($DBverbinding, $sql);
+    
+    while($record = mysqli_fetch_assoc($records)) {
+        echo $record["straat"]." (".$record["aantal"].")<br>";
+    }
+}
+
 mysqli_close($DBverbinding);  
 
 /****************************
