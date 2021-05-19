@@ -17,7 +17,7 @@ echo '<i>verbinding database succesvol</i>';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Startpagina</title>
+        <title>Official MineCraft Spedrun</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
     <body>
