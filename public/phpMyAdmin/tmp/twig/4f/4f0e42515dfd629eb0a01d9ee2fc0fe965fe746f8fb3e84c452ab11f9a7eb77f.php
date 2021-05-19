@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* display/results/page_selector.twig */
-class __TwigTemplate_782c793179e48cf4dc28fcb86c417ef53789f19b191ee8c909098aaa3010af47 extends \Twig\Template
+/* display/results/empty_display.twig */
+class __TwigTemplate_d1b20dcda2e2b267ca0c835be17c28cef7a73061b4423b9f50686625a0b372b1 extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -34,24 +34,17 @@ class __TwigTemplate_782c793179e48cf4dc28fcb86c417ef53789f19b191ee8c909098aaa301
     {
         $macros = $this->macros;
         // line 1
-        echo "<td>
-  <form action=\"sql.php\" method=\"post\">
-    ";
-        // line 3
-        echo PhpMyAdmin\Url::getHiddenInputs(($context["url_params"] ?? null));
-        echo "
-    ";
-        // line 4
-        echo ($context["page_selector"] ?? null);
-        echo "
-  </form>
-</td>
+        echo "<td ";
+        echo twig_escape_filter($this->env, ($context["align"] ?? null), "html", null, true);
+        echo " class=\"";
+        echo twig_escape_filter($this->env, ($context["classes"] ?? null), "html", null, true);
+        echo "\"></td>
 ";
     }
 
     public function getTemplateName()
     {
-        return "display/results/page_selector.twig";
+        return "display/results/empty_display.twig";
     }
 
     public function isTraitable()
@@ -61,11 +54,11 @@ class __TwigTemplate_782c793179e48cf4dc28fcb86c417ef53789f19b191ee8c909098aaa301
 
     public function getDebugInfo()
     {
-        return array (  45 => 4,  41 => 3,  37 => 1,);
+        return array (  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/page_selector.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/page_selector.twig");
+        return new Source("", "display/results/empty_display.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/empty_display.twig");
     }
 }
