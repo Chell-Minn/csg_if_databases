@@ -48,7 +48,7 @@ else {
         </div>
         <div id="container">
             <h1>
-                <?php echo 'Welcome to the official MineCraft Spedrun website';?>
+                <?php echo 'Uitleg hier snel snappen ';?>
             </h1> 
         </div>
         <div id="footer">
