@@ -44,17 +44,4 @@ else {
       <a href="Speedruns.php">Mine A Chunk</a>
     </div>
   </div>
-</div>      
-        </div>
-        <div id="container">
-            <h1>
-                <?php echo 'Welke categoriën zijn er?';?>
-            </h1> 
-        </div>
-        <div id="footer">
-            <h1>
-                <?php echo 'Contactgegevens hier';?>
-            </h1>
-        </div>
-    </body>
-</html>
+</div>

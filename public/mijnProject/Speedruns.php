@@ -6,13 +6,16 @@ $sql = "SELECT * FROM java";
 <!DOCTYPE html>
 <html>
     <head>
-       <div class="navbar">
-  <a href="index.php">Home</a>
-  <a href="uitleg.php">Uitleg</a>
-  <div class="dropdown">
-    <button class="dropbtn">Speedruns
-      <i class="fa fa-caret-down"></i>
-    </button>
+        <title>Speedruns</title>
+        <link rel="stylesheet" type="text/css" href="css/design.css">
+        <link rel="icon" href="https://static.planetminecraft.com/files/resource_media/screenshot/1321/Creeper-the-minecraft-creeper-32729200-1200-1200_5515445_thumb.jpg">
+    <div class="navbar">
+        <a href="index.php">Home</a>
+        <a href="uitleg.php">Uitleg</a>
+    <div class="dropdown">
+        <button class="dropbtn">Speedruns
+            <i class="fa fa-caret-down"></i>
+        </button>
     <div class="dropdown-content">
       <a href="Speedruns.php">Enderdragon Random Seed%</a>
       <a href="Speedruns.php">Enderdragon Set Seed%</a>
@@ -25,22 +28,18 @@ $sql = "SELECT * FROM java";
       <a href="Speedruns.php">Obtain All Blocks%</a>
       <a href="Speedruns.php">Mine A Chunk</a>
     </div>
-  </div>
-</div>      
-    <title>Speedruns</title>
-     
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-        <link rel="icon" href="https://static.planetminecraft.com/files/resource_media/screenshot/1321/Creeper-the-minecraft-creeper-32729200-1200-1200_5515445_thumb.jpg">
+     </div>
+    </div>      
     </head>
     <body>
-        <div id="hoofd">
-            <h1>
-                <?php echo 'Speedruns';?>
-            </h1>
-        </div>
         <div id="container">
             <h1>
-                <?php echo 'tabel met speedruns';?>
+                <?php echo 'Tabel met speedruns';?>
+            </h1>
+        </div>
+        <div id="footer">
+            <h1>
+                <?php echo 'Contactgegevens hier';?>
             </h1>
         </div>
     </body>
