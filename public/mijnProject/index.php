@@ -1,10 +1,10 @@
-<?php
-error_reporting(E_ALL & ~E_NOTICE);
-include('database.php');
+<?php include('php/header.php'); ?>
+<div id="container">
+    <h1>Welcome to the official MineCraft Speedrun website!</h1>
+</div>
 
-?>
-    <?php include('header.php');?>
-        <div id="container">
-            <h1>Welcome to the official MineCraft Spedrun website!</h1> 
-        </div>
-    <?php include('footer.php');?>
+<div id="plaatje">
+<img src="images/chunk.png">
+</div>
+
+<?php include('php/footer.php'); ?>

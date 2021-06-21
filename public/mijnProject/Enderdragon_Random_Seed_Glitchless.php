@@ -1,9 +1,5 @@
-<?php
-include('header.php');
-
-require("tabel.php");
-$tabel = verkijgTabelInfo("Enderdragon Random Seed Glitchless%");
-
-echo $tabel;
-
-include('footer.php');
+<?php include('php/header.php'); ?>
+<div id="container">
+    <h1>Enderdragon_Random_Seed_Glitchles</h1>
+</div>
+<?php include('php/footer.php'); ?>
