@@ -1,0 +1,21 @@
+
+
+Minecraft Spedrun is de officiiële Spedrun site waar mensen hun spedruns kunnen vergelijken met anderen in verschillende categoriën.
+De categoriën zijn:
+        Enderdragon Random Seed
+        Enderdragon Set Seed
+        All achievements
+        Eat all food
+        Border
+        Mushroom Biome
+        Obtain All Blocks
+        Mine A Chunk
+
+Mensen kunnen een account aanmaken door de 'Sign up' knop aan te klikken. 
+Daarna kunnen ze inloggen met hun zojuist aangemaakte account nadat de 'Login'knop is aangeklikt.
+Als je ingelogd bent zie je twee nieuwe knoppen in de navigatie balk, 'Submit Speedrun' en 'Log Out'.
+Als 'Log Out' wordt aangeklikt log je uit.
+Als 'Submit Spedrun' wordt aanklikt ga je naar een nieuwe pagina waar je de categorie kan kiezen van de spedrun die je hebt gedaan.
+Daaronder kan je je tijd aangeven en als je vervolgens met je muis op 'Spedruns' gaat kan je een categorie kiezen en kan je de leaderboards zien van de gekozen spedrun.
+
+Als je niet bent ingelogd kan je nog steeds de leaderboards zien, maar je kan zelf geen tijden delen van je eigen spedruns.

@@ -1,4 +1,8 @@
 <?php include('php/header.php'); ?>
+
+
+
+
 <div id="container">
     <?php
     if (isset($_GET['c'])) {
@@ -52,5 +56,12 @@
         echo "<h1>Geen categorie geselecteerd!</h1>";
     }
     ?>
+</div>
+
+<div id="steve">
+    <img src="./images/Steve.png">
+</div>
+<div id="alex">
+    <img src="./images/Alex.png">
 </div>
 <?php include('php/footer.php'); ?>

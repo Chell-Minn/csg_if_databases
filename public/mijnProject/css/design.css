@@ -24,11 +24,56 @@ body {
     background-color: limegreen;
 }
 
+#textindex {
+    width: 100%;
+    margin: auto;
+    margin-top: 2,5%;
+    padding: 0;
+    text-align: center;
+
+}
+
+#plaatjeminecraft img {
+    width: 50%;  
+    height: auto;
+    margin: 0px;
+}
+
+#plaatjeminecraft2 img {
+     width: 50%;  
+     height: auto;
+     margin: 0px;
+}
+
+#steve img {
+    height: 500px;
+    width: auto; 
+    margin: 0px;
+     padding: 20px;
+    float: right;
+}
+
+#alex img {
+     height: 500px;
+     width: auto;  
+     margin: 0px;
+     padding: 20px;
+     float: left;
+}
+
+
 #container {
     width: 50%;
     margin: auto;
     margin-top: 2,5%;
     padding: 0;
+    text-align: center;
+}
+
+#leesmij {
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
     text-align: center;
 }
 
@@ -95,7 +140,7 @@ nav .logo a {
   color: rgb(168, 255, 201);
   text-align: center;
   padding: 10px 14px;
-  padding-top: 17px;
+  padding-top: 11px;
   font-weight: normal !important;
 }
 
@@ -210,14 +255,8 @@ button[type=submit]:hover {
     width: 20px;
     height: 20px;
     margin: 0px;
-    margin-top: 10px;
-    border: 0px;
-}
-
-.enderdragon {
-    width: 20px;
-    height: 20px;
-    margin: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 5px;
     border: 0px;
 }
