@@ -207,7 +207,17 @@ button[type=submit]:hover {
 }
 
 .blokje {
-    width: 2%;
-    height: 2%;
-  
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+.enderdragon {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    border: 0px;
 }

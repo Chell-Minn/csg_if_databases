@@ -2,9 +2,7 @@
 <div id="container">
     <h1>Welcome to the official MineCraft Speedrun website!</h1>
 </div>
-
-<div id="plaatje">
-<img src="images/chunk.png">
-</div>
+<img  src="./images/minecraft.png">
+<img  src="./images/minecraft.png">
 
 <?php include('php/footer.php'); ?>
