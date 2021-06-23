@@ -147,6 +147,11 @@ nav .logo a {
   font-weight: normal !important;
 }
 
+.cat-img {
+    width: 30%;
+}
+
+
 nav .logo a:hover {
   background-color: #333;
   color: rgb(12, 139, 61);

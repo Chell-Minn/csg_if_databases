@@ -44,10 +44,10 @@ session_start();
             if (isset($_SESSION["userId"])) {
                 echo '
             <li>
-              <a href="submit.php">Submit Spedrun</a>
+              <a href="submit.php">Verzend Spedrun</a>
             </li>
             <li style="float:right">
-              <a href="php/logout.php">Log Out</a>
+              <a href="php/logout.php">Uitloggen</a>
             </li>
             <li style="float:right">
               <span class="username">' . $_SESSION["userName"] . '</span>
@@ -55,10 +55,10 @@ session_start();
             } else {
                 echo '
         <li style="float:right">
-          <a href="signup.php">Sign Up</a>
+          <a href="signup.php">Aanmelden</a>
         </li>
         <li style="float:right">
-          <a href="login.php">Login</a>
+          <a href="login.php">Inloggen</a>
         </li>';
             }
             ?>

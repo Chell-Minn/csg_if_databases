@@ -41,27 +41,32 @@
             $result->free_result();
         }
         echo '<h1>' . $categorieNaam . '</h1>';
-        echo '<p> <strong>Doel: </strong> '.$categorieRow["beschrijving"].'</p>';
-        echo '<img src="'.$categorieRow["afbeelding"].'"/>';
-        echo '<table><tr>
-        <th>Positie</th>
-        <th>Naam</th>
-        <th>Tijd</th>
-        <th>Datum</th>
-        <th>Bewijs</th>
-        </tr>';
-        $positie = 1;
-        foreach ($tabel as $item) {
-            echo '<tr>
+        echo '<p> <strong>Doel: </strong> ' . $categorieRow["beschrijving"] . '</p>';
+        echo '<img class="cat-img" src="' . $categorieRow["afbeelding"] . '"/>';
+
+        if (sizeof($tabel) == 0) {
+            echo '<p>Deze categorie heeft nog geen verzonden speedruns!</p>';
+        } else {
+            echo '<table><tr>
+            <th>Positie</th>
+            <th>Naam</th>
+            <th>Tijd</th>
+            <th>Datum</th>
+            <th>Bewijs</th>
+            </tr>';
+            $positie = 1;
+            foreach ($tabel as $item) {
+                echo '<tr>
             <td>' . $positie . '</td>
             <td>' . $item[0] . '</td>
             <td>' . $item[1] . '</td>
             <td>' . $item[2] . '</td>
             <td>' . $item[3] . '</td>
             </tr>';
-            $positie++;
+                $positie++;
+            }
+            echo '</table>';
         }
-        echo '</table>';
     } else {
         echo "<h1>Geen categorie geselecteerd!</h1>";
     }
