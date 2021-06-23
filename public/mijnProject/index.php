@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include('php/header.php'); ?>
 <div id="container">
     <h1>Welcome to the official MineCraft Spedrun website!</h1>
@@ -53,4 +54,10 @@
     </div>
 </div>
 
+=======
+<?php include('php/header.php'); ?>
+<div id="container">
+    <h1>Welcome to the official MineCraft Spedrun website!</h1>
+</div>
+>>>>>>> a4158732f26e4a36f0c652c2a2b7bf29e0b23e2c
 <?php include('php/footer.php'); ?>
