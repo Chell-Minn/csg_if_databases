@@ -1,6 +1,6 @@
 <?php include('php/header.php'); ?>
 <div id="container">
-    <h1>Sign Up</h1>
+    <h1>Aanmelden</h1>
     <p>Create an account to submit speedruns.</p>
     <?php
     if (isset($_GET["error"])) {

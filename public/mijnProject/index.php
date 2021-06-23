@@ -37,7 +37,7 @@
                     Mine A Chunk
                 </li>
             </ul>
-            Mensen kunnen een account aanmaken door de 'Sign up' knop aan te klikken. 
+            Mensen kunnen een account aanmaken door de 'Sign up' knop aan te klikken.
             Daarna kunnen ze inloggen met hun zojuist aangemaakte account nadat de 'Login'knop is aangeklikt.
             Als je ingelogd bent zie je twee nieuwe knoppen in de navigatie balk, 'Submit Speedrun' en 'Log Out'.
             Als 'Log Out' wordt aangeklikt log je uit.
@@ -47,7 +47,7 @@
             Als je niet bent ingelogd kan je nog steeds de leaderboards zien, maar je kan zelf geen tijden delen van je eigen spedruns.
         </h3>
     </div>
-    
+
     <div id="plaatjeminecraft2">
         <img src="./images/steve_sunset.jpg">
     </div>

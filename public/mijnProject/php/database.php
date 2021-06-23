@@ -20,7 +20,9 @@ $mysqli->select_db($database);
 
 $sql = "CREATE TABLE IF NOT EXISTS categorie (
     categorie_id int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    naam VARCHAR(30)
+    naam VARCHAR(50),
+    afbeelding VARCHAR(30),
+    beschrijving TEXT
 )";
 
 if (!$mysqli->query($sql)) {
@@ -32,7 +34,8 @@ $sql = "CREATE TABLE IF NOT EXISTS speedruns (
     categorie_id int(11),
     naam VARCHAR(30),
     tijd TIME,
-    datum DATE
+    datum DATE,
+    bewijs VARCHAR(200)
 )";
 
 if (!$mysqli->query($sql)) {
