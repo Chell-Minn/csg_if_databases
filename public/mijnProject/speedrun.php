@@ -1,9 +1,15 @@
 <?php include('php/header.php'); ?>
 
 
-
+<div id="steve">
+    <img src="./images/Steve.png">
+</div>
+<div id="alex">
+    <img src="./images/Alex.png">
+</div>
 
 <div id="container">
+    
     <?php
     if (isset($_GET['c'])) {
         $categorieId = $_GET['c'];
@@ -58,10 +64,5 @@
     ?>
 </div>
 
-<div id="steve">
-    <img src="./images/Steve.png">
-</div>
-<div id="alex">
-    <img src="./images/Alex.png">
-</div>
+
 <?php include('php/footer.php'); ?>
