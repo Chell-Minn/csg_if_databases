@@ -16,13 +16,13 @@ session_start();
     <nav>
         <ul>
             <li class="logo">
-               <a href="index.php">
-            <img  class="blokje" src="./images/grassblock.png">
-               Minecraft Spedrun</a>
+                <a href="index.php">
+                    <img class="blokje" src="./images/grassblock.png">
+                    Minecraft Spedrun</a>
             </li>
 
             <li class="dropdown">
-                <a href="speedrun.php" class="dropbtn">Spedruns</a>
+                <a href="" class="dropbtn">Spedruns</a>
                 <div class="dropdown-content">
                     <?php
                     require 'php/database.php';

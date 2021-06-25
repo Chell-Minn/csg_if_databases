@@ -5,7 +5,7 @@ if (!isset($_SESSION["userId"])) {
     exit();
 }
 ?>
-<div id="container">
+<div class="container">
     <h1>Verzend Spedrun</h1>
     <p>Vul het onderstaande formulier in om een spedrun van jezelf te verzenden.</p>
     <?php

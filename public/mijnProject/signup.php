@@ -1,5 +1,5 @@
 <?php include('php/header.php'); ?>
-<div id="container">
+<div class="container">
     <h1>Aanmelden</h1>
     <p>Maak een Spedrun account om je speedruns te verzenden.</p>
     <?php

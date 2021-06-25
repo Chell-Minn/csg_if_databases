@@ -8,7 +8,7 @@
     <img src="./images/Alex.png">
 </div>
 
-<div id="container">
+<div class="container">
 
     <?php
     if (isset($_GET['c'])) {
@@ -32,7 +32,7 @@
 
         // Sorteer eerst op tijd en dan op datum
         // Dus iemand met dezelfde tijd en een latere datum staat bovenaan
-        $query = "SELECT naam, tijd, datum FROM speedruns WHERE categorie_id=" . $categorieId . " ORDER BY tijd, datum DESC";
+        $query = "SELECT naam, tijd, datum, bewijs FROM speedruns WHERE categorie_id=" . $categorieId . " ORDER BY tijd, datum DESC";
         $tabel = [];
         if ($result = $mysqli->query($query)) {
             while ($row =  mysqli_fetch_array($result)) {
