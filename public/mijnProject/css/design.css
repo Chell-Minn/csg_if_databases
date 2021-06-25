@@ -60,6 +60,16 @@ body {
     padding: 0;
 }
 
+.container-center {
+    width: 50%;
+    margin: auto;
+    margin-top: 26px;
+    padding: 0;
+    
+    text-align: center;
+}
+
+
 .container img {
     width: 100%;
 }

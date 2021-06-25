@@ -1,5 +1,5 @@
 <?php include('php/header.php'); ?>
-<div class="container">
+<div class="container-center">
     <h1>Inloggen</h1>
     <p>Login met je Spedrun account.</p>
     <?php
