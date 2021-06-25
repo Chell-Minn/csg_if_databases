@@ -137,7 +137,10 @@ nav .logo a {
 }
 
 .cat-img {
-    width: 30%;
+    max-width:40%;
+    max-height:40%;
+    height: auto;
+    width:auto;
 }
 
 
